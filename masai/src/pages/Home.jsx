@@ -13,7 +13,7 @@ export const Home = () => {
       sx={{
         width:"43%",
         margin:"auto",
-        marginTop:"5%"
+        marginTop:"150px"
       }}
     >
        <h1 style={{fontSize:"43px",fontWeight:"800"}}>Driven by Outcomes, Fuelled by Ambitions.</h1> 
@@ -31,9 +31,18 @@ export const Home = () => {
 
        {/* Section 3 */}
 
-       <div id="section3">
+       <div id="section3" >
         <h2 style={{color:"#544d4f"}}>Skilling talent that delivers.</h2>
         <h1>Meet Our 2000+ Hiring Partners</h1>
+       </div>
+
+       {/* Section 4 */}
+       <div id="section4" >
+       </div>
+
+       {/* Section 5 */}
+       <div id="section5">
+        
        </div>
 
     </div>

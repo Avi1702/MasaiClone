@@ -7,15 +7,37 @@
 	0%{background-position: 0 0;}
 	100%{background-position: 100vw 0;}
 }
+
+
 #img_div{
     height: 350px;
     margin-top: 11%;
 	background:url(https://masai-website-images.s3.ap-south-1.amazonaws.com/stud_image_desktop_upload_793ed2b430.png) repeat-x 0 / 100% auto;
 	/* height:auto; this value is not important, just not zero */
-	animation: ani 40s reverse infinite;
+	animation: ani 35s reverse infinite;
 
 }
 
 #img_div:hover{
     cursor: pointer;
+}
+
+#section4{
+    height: 150px;
+    margin-top: 100px;
+	background:url(../images/section4.jpg) repeat-x 0 / 100% auto;
+   
+	animation: ani 35s reverse infinite;
+    /* border: 1px solid black; */
+}
+
+#section5{
+    height: 150px;
+	background:url(../images/section5.jpg) repeat-x 0 / 100% auto;
+    animation: ani 35s reverse infinite;
+    /* border: 1px solid black; */
+}
+
+#section4,#section5 :hover{
+  cursor: pointer;
 }
