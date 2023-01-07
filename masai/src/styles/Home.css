@@ -2,3 +2,15 @@
     margin: 0;
     padding: 0;
 }
+
+@keyframes ani{
+	0%{background-position: 0 0;}
+	100%{background-position: 100vw 0;}
+}
+#img_div{
+    margin-top: 50px;
+	background:url(https://masai-website-images.s3.ap-south-1.amazonaws.com/stud_image_desktop_upload_793ed2b430.png) repeat-x 0 / 100% auto;
+	height:700px; /* this value is not important, just not zero */
+	animation: ani 40s reverse infinite;
+
+}

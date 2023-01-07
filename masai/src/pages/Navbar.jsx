@@ -38,7 +38,7 @@ function Navbar() {
           </Typography>
 
 
-          <Box sx={{ flexGrow: 1,width:"60%", display: { xs: 'none', md: 'flex',gap:"10px" },marginLeft:"10%" }}>
+          <Box sx={{ flexGrow: 1,width:"60%", display: { xs: 'none', md: 'flex',gap:"10px" },marginLeft:"8%" }}>
             {pages.map((page) => (
               <Button
                 key={page}
@@ -52,7 +52,7 @@ function Navbar() {
             ))}
           </Box>
 
-      <Box sx={{width:"20%",display: { xs: 'none', md: 'flex',gap:"20px" },borderColor:"red",marginRight:"3%"}}>
+      <Box sx={{width:"25%",display: { xs: 'none', md: 'flex',gap:"20px" },borderColor:"red",marginRight:"3%"}}>
         <Button variant="contained" sx={{width:"70%",display:"inline-block",color:"#6e71cc",backgroundColor:"rgb(66 153 225 / 5%)",boxShadow:"none",'&:hover': {
           backgroundColor: 'rgb(66 153 225 / 60%)',
           opacity: [0.9, 0.8, 0.7],
