@@ -16,7 +16,7 @@ const pages = ["COURSES","REFER & EARN","FEES & PAP","FREE RESOURCES","FOR CORPO
 function Navbar() {
  
   return (
-    <AppBar position="static" sx={{backgroundColor:"white",color:"black", boxShadow:"none"}}>
+    <AppBar position="fixed" sx={{backgroundColor:"white",color:"black", boxShadow:"none"}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
