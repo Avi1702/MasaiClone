@@ -3,6 +3,9 @@ import Box from '@mui/material/Box';
 // import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import "../styles/Home.css"
+import section6 from "../images/section6.jpg"
+import section7 from "../images/section7.jpg"
+import bottomleft from "../images/bottomleft2.jpg"
 
 
 export const Home = () => {
@@ -42,8 +45,41 @@ export const Home = () => {
 
        {/* Section 5 */}
        <div id="section5">
-        
+
        </div>
+
+       {/* Section 6 */}
+       <div id="section6">
+        <div className="left">
+           <div className="top_left">
+            <h2>sunshine6000+ Students Currently <br/>Enrolled<br/> 94% Placement Rate*</h2>
+          <img src="https://www.masaischool.com/img/homepage/scribble.png" alt="scrubling" style={{position:"absolute",marginTop:"64px",left:"10%"}}></img><br/>
+           
+            <h5>*for students who have graduated from Masai School and are Masai accredited</h5>
+           </div>
+
+           <div className="bottom_left">
+            <img src={bottomleft}></img>
+        </div>
+       </div>
+        
+     
+
+        <div className="right">
+            <img src="https://www.masaischool.com/img/homepage/media.png"></img>
+            <h2>Masai In The News</h2>
+            <Button variant="outlined" sx={{color:"white",borderColor:"white",width:"30%",marginTop:"-20%",marginLeft:"38%"}} >Know More</Button>
+        </div>
+
+
+</div>
+
+{/* section7 */}
+
+<div id="section7">
+    <img src={section7}></img>
+</div>
+       
 
     </div>
   )

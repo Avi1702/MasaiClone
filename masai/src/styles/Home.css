@@ -13,7 +13,6 @@
     height: 350px;
     margin-top: 11%;
 	background:url(https://masai-website-images.s3.ap-south-1.amazonaws.com/stud_image_desktop_upload_793ed2b430.png) repeat-x 0 / 100% auto;
-	/* height:auto; this value is not important, just not zero */
 	animation: ani 35s reverse infinite;
 
 }
@@ -40,4 +39,80 @@
 
 #section4,#section5 :hover{
   cursor: pointer;
+}
+
+#section6{
+    width: 98%;
+    padding: 20px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.top_left{
+    /* display: inline-block; */
+    width: 90%;
+    height: 45%;
+    border-radius: 40px;
+    border: 1px solid black;
+    background-color: #3470e4;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top_left h2{
+ font-size: 30px;
+}
+.top_left h5{
+   margin-top: 30px;
+   }
+.bottom_left{
+  
+    width: 90%;
+    height: 45%;
+    border-radius: 40px;
+
+
+}
+.bottom_left img{
+    width: 100%;
+}
+.right{
+ 
+    border-radius: 40px;
+     height: 90%;
+    width: 40%;
+    background-color:rgba(110,113,204);
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+
+}
+.right img{
+    display: inline-block;
+    margin-top: -40px;
+    margin-left: -10px;
+}
+.right h2{
+    color:white;
+    font-size: 30px;
+}
+
+#section7{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+#section7 img{
+   width: 100%;
+
 }
